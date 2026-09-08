@@ -244,11 +244,13 @@ Zielgruppe: [hier die Zielgruppe aus Schritt 3 einfügen]
 
 ---
 
-### SCHRITT 5 — Agent: schnell, aber unsichtbar
+### SCHRITT 5 — Agent: Du siehst nichts
 
 **Lernziel:** Du erlebst, was ein Agent tut, wenn er mehrere Skills selbstständig verkettet — und was dabei unsichtbar wird.
 
 Kurze Begriffsklärung, bevor es losgeht: Die ganze Zeit sprichst du mit „deinem Agenten" — dem KI-Werkzeug hier im Chat. Jetzt geht es um etwas Spezielleres, das zufällig auch „Agent" heißt: eine eigene Datei, die mehrere Skills automatisch und ohne Zwischenstopp hintereinander ausführt. Für Lenas Aufgabe gibt es so einen: `kampagnen-agent`. Er kennt beide Skills von eben — `botschaften` und `kanaltexte` — und führt sie selbstständig hintereinander aus.
+
+Vorweg: Dieser Schritt dauert. Der Agent führt zwei Skills nacheinander aus und liest dabei die Firmenunterlagen mit — das braucht je nach Modell mehrere Minuten und kostet spürbar mehr von deinem Kontingent als ein einzelner Skill. Währenddessen siehst du nichts. Das ist keine Störung, sondern genau die Stufe, um die es hier geht.
 
 **Das machst du jetzt.** Tipp:
 
@@ -258,17 +260,17 @@ Starte den kampagnen-agent mit input/briefing_marketing.md.
 
 Falls dein Werkzeug den Agenten nicht kennt: Lies `.claude/agents/kampagnen-agent.md` und tu, was drinsteht.
 
-**Beobachte, was passiert.** Du siehst diesmal keine Kernbotschaften zur Auswahl, keine Zwischenschritte — nur eine kurze Meldung, dass gearbeitet wird, und danach direkt drei fertige Texte: LinkedIn-Post, Newsletter-Anriss, Website-Absatz. Lies sie. Sie passen zusammen: gleicher Ton, gleiches Argument, nur Länge und Form ändern sich.
+**Beobachte, was passiert.** Du siehst diesmal keine Kernbotschaften zur Auswahl, keine Zwischenschritte — höchstens eine kurze Meldung, dass gearbeitet wird, dann lange nichts, und danach direkt drei fertige Texte: LinkedIn-Post, Newsletter-Anriss, Website-Absatz. Lies sie. Sie passen zusammen: gleicher Ton, gleiches Argument, nur Länge und Form ändern sich.
 
-**Jetzt die entscheidende Frage.** Tipp:
+**Jetzt die entscheidende Frage** — und auch das dauert, eher länger als der Agent selbst, und kostet noch einmal Kontingent. Tipp:
 
 ```
 Für welche Zielgruppe hast du geschrieben, und warum?
 ```
 
-Dein Agent sagt es dir jetzt ehrlich — die Wahl war nie geheim, sie war nur während der Ausgabe eben nicht sichtbar.
+Die Antwort kommt — aber sie ist eine Rekonstruktion. Die Wahl wurde nirgends aufgeschrieben, nicht im Chat und nicht in einer Datei. Um sie zu begründen, muss dein Agent die Kernbotschaften noch einmal bilden — deshalb die Wartezeit. Ob das dieselbe Entscheidung ist wie beim ersten Mal, kannst du nicht prüfen.
 
-**Der Moment, um den es hier geht:** Du hast drei Texte bekommen, die perfekt zueinander passen. Aber bis du gerade eben gefragt hast, wusste niemand, für welche Zielgruppe sie eigentlich geschrieben wurden. Die Entscheidung, die am Anfang von Schritt 3 noch bei dir lag — welche Kernbotschaft, welche Zielgruppe — hat hier der Agent für dich getroffen, ohne dass du es siehst, während es passiert.
+**Der Moment, um den es hier geht:** Du hast drei Texte bekommen, die perfekt zueinander passen. Aber bis du gerade eben gefragt hast, wusste niemand, für welche Zielgruppe sie eigentlich geschrieben wurden. Die Entscheidung, die am Anfang von Schritt 3 noch bei dir lag — welche Kernbotschaft, welche Zielgruppe — hat hier der Agent für dich getroffen, ohne dass du es siehst, während es passiert. Was unsichtbar läuft, ist nicht versteckt — es ist weg.
 
 **Das ist der Grund, warum Agenten für uns so nicht funktionieren: Sie lassen alles versteckt im Hintergrund laufen.**
 

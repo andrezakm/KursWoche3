@@ -210,9 +210,11 @@ Nimm einen der beiden (oder beide) und lass ihn anlegen. Dein Agent fragt dich d
 
 ---
 
-### SCHRITT 5 — Agent: Die Wahl war die ganze Zeit da
+### SCHRITT 5 — Agent: Du siehst nichts
 
 **Lernziel:** Du erlebst am eigenen Leib, was Autonomie kostet, wenn ein Agent — mehrere Skills, die selbstständig hintereinander laufen — für dich entscheidet.
+
+Vorweg: Dieser Schritt dauert. Der Agent führt zwei Skills nacheinander aus und liest dabei die Firmenunterlagen mit — das braucht je nach Modell mehrere Minuten und kostet spürbar mehr von deinem Kontingent als ein einzelner Skill. Währenddessen siehst du nichts. Das ist keine Störung, sondern genau die Stufe, um die es hier geht.
 
 Tippe:
 
@@ -224,13 +226,13 @@ Falls dein Werkzeug den Agenten nicht kennt: Lies `.claude/agents/varianten-agen
 
 Schau dir an, was zurückkommt. Es sind fertige User Stories — inhaltlich dasselbe Ergebnis wie am Ende von Schritt 3. Aber diesmal hast du weder die drei Varianten gesehen noch mitbekommen, welche davon ausgewählt wurde. Der varianten-agent hat `/ausbauvarianten` und `/stories` intern selbst hintereinander ausgeführt, selbst eine Variante gewählt — und zeigt dir nur das Ende.
 
-Frag jetzt direkt nach:
+Frag jetzt direkt nach — und auch das dauert, eher länger als der Agent selbst, und kostet noch einmal Kontingent:
 
 ```
 Welche Variante hast du gewählt, und warum?
 ```
 
-Der Agent sagt es dir ehrlich — die Antwort war die ganze Zeit da, sie stand nur nicht von selbst im Chat. Genau das ist der Punkt: Welche der drei Varianten die richtige ist, ist eine wichtige Entscheidung — genauso wichtig wie die Stories selbst. Sie wurde trotzdem getroffen, bevor du sie sehen konntest.
+Die Antwort kommt — aber sie ist eine Rekonstruktion. Die Wahl wurde nirgends aufgeschrieben, nicht im Chat und nicht in einer Datei. Um sie zu begründen, muss dein Agent die Varianten noch einmal bilden — deshalb die Wartezeit. Ob das dieselbe Entscheidung ist wie beim ersten Mal, kannst du nicht prüfen. Genau das ist der Punkt: Welche der drei Varianten die richtige ist, ist eine wichtige Entscheidung — genauso wichtig wie die Stories selbst. Sie wurde getroffen, bevor du sie sehen konntest, und sie wurde nirgends festgehalten. Was unsichtbar läuft, ist nicht versteckt — es ist weg.
 
 **Das ist der Grund, warum Agenten für uns so nicht funktionieren: Sie lassen alles versteckt im Hintergrund laufen.**
 
