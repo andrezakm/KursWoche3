@@ -270,8 +270,6 @@ Vergleiche dein Ergebnis mit dem aus Schritt 5. Vielleicht ist es dasselbe. Viel
 
 **Die Erkenntnis:** Dieselben Bausteine, derselbe Weg — aber diesmal sichtbar und an jeder Stelle korrigierbar. Genau das ist Regie: nicht jeden Handgriff selbst machen, sondern delegieren und dabei zuschauen.
 
-Ein Blick voraus: In Woche 5 lernst du, wie ein Agent später auch die langweiligen Teile dieser Regie übernehmen kann — mit sichtbaren Kontrollpunkten statt einem Ergebnis, bei dem du nicht siehst, wie es entstanden ist.
-
 ```
 ─────────────────────────────────────
 ▶ weiter        — Schritt 7 (Wo stehst du?)

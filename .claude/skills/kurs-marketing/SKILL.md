@@ -311,8 +311,6 @@ Zielgruppe: [die passende Zielgruppe]
 
 Vergleiche jetzt die drei Texte von eben mit den drei Texten des Agenten aus Schritt 5. Wahrscheinlich lesen sich beide gut. Der Unterschied liegt nicht in der Qualität, sondern davor: Bei dieser Runde hast du die Wahl gesehen und getroffen, bevor die Texte entstanden sind. Beim Agenten aus Schritt 5 konntest du sie nur nachträglich erfragen.
 
-**Die Erkenntnis dieses Schritts:** Dieselben Bausteine, dieselbe Qualität — aber diesmal sichtbar und an jeder Stelle korrigierbar. Die Antwort auf einen Agenten, der alles versteckt, ist nicht „keine Agenten mehr benutzen", sondern die einzelnen Schritte so anzuordnen, dass du an den wichtigen Stellen noch hinschaust, mit sichtbaren Einstiegspunkten. Wie man mehrere solcher Skills und Schritte zu einer festen Abfolge verbindet, ohne jeden einzelnen Befehl von Hand zu tippen, ist Thema in Woche 5.
-
 ```
 ─────────────────────────────────────
 ▶ weiter        — Schritt 7
