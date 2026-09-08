@@ -106,10 +106,12 @@ Vergleiche die Antwort mit der aus Schritt 1. Gemeint ist im Grunde dasselbe —
 
 Damit das nicht bei jedem Mal neu passiert, kann man den Prompt aufschreiben — das nennt man ein **Skript**: ein Prompt, den du als Datei speicherst, damit du ihn beim nächsten Mal nicht neu tippen musst, sondern nur noch aufrufst.
 
-**Das machst du jetzt: den Prompt als Datei speichern.** Gemeint ist der Prompt aus Schritt 1 ganz am Anfang. Tipp genau das:
+**Das machst du jetzt: den Prompt als Datei speichern.** Gemeint ist der Prompt aus Schritt 1 ganz am Anfang — deshalb steht er hier noch einmal mit drin. Tipp genau das:
 
 ```
-Speichere diesen Prompt als scripts/botschaften.md
+Speichere diesen Prompt als scripts/botschaften.md:
+
+Lies input/briefing_marketing.md. Was sind die Kernbotschaften, und für welche Zielgruppe passt welcher Winkel?
 ```
 
 Dein Agent legt jetzt eine neue Datei an, im Ordner `scripts` (den gibt es schon), mit dem Namen `botschaften.md`. Darin steht ab jetzt genau der Prompt aus Schritt 1.
@@ -290,7 +292,7 @@ Autonomie kostet Sichtbarkeit — und die Sichtbarkeit war genau der Wert, den d
 
 **Lernziel:** Du machst dieselbe Arbeit von Hand und siehst den Unterschied: dieselben Bausteine, aber sichtbar.
 
-Der Agent aus Schritt 5 hat dir in Sekunden ein fertiges Ergebnis geliefert. Nur die Wahl dahinter war unsichtbar. Jetzt machst du dieselbe Arbeit noch einmal, mit denselben zwei Skills — aber diesmal führst du selbst Regie: Du entscheidest an jeder Stelle, was als Nächstes passiert, und siehst jedes Zwischenergebnis, bevor es weitergeht.
+Der Agent aus Schritt 5 hat dir mit einem einzigen Befehl ein fertiges Ergebnis geliefert. Nur die Wahl dahinter war unsichtbar. Jetzt machst du dieselbe Arbeit noch einmal, mit denselben zwei Skills — aber diesmal führst du selbst Regie: Du entscheidest an jeder Stelle, was als Nächstes passiert, und siehst jedes Zwischenergebnis, bevor es weitergeht.
 
 **Das machst du jetzt.** Tipp:
 
