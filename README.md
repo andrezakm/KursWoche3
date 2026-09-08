@@ -92,7 +92,7 @@ Copilot arbeitet mit Anfrage-Kontingenten deiner CLAAS-Lizenz. Die einzelnen Ski
 
 ## Weiterführend
 
-Die erste Fassung dieser Woche hatte ein größeres System: drei Analyse-Skills und einen Agenten, der sie orchestriert, samt Notizen darüber, was beim Bauen schiefging. Es liegt im Branch `v1-drei-schichten` dieses Repositories — für alle, die sehen wollen, wie ein größerer Agent aussieht. Für den Kurs brauchst du es nicht.
+Die erste Fassung dieser Woche hatte ein größeres System: drei Analyse-Skills und einen Agenten, der sie orchestriert, samt Notizen darüber, was beim Bauen schiefging. Wer sehen will, wie so ein größerer Agent aussieht, fragt Markus danach. Für den Kurs brauchst du es nicht.
 
 ## Probleme?
 
